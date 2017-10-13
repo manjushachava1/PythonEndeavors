@@ -15,7 +15,7 @@ for element in a:
 print(b)
 
 #Extra 2
-num = int(input("Enter any number: "))
+num = int(input("Enter a random number: "))
 for element in a:
     if element < num:
         b.append(element)
