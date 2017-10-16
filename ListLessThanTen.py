@@ -7,6 +7,7 @@
 
 a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 b = []
+c = []
 
 #Extra 1
 for element in a:
@@ -18,5 +19,5 @@ print(b)
 num = int(input("Enter a random number: "))
 for element in a:
     if element < num:
-        b.append(element)
-print(b)
+        c.append(element)
+print(c)
