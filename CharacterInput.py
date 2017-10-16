@@ -7,7 +7,7 @@
 
 name = input("Enter your name here: ")
 age = int(input("Enter your age here: "))
-age = str(age + 100)
+age = str(100 - age)
 string = "In 100 years " + name + ", you will be " + age + ". "
 print(string)
 
@@ -17,6 +17,6 @@ print(n * string)
 
 # Extra 2
 n = int(input("Enter any number: "))
-string1 = '\n'+string
+string1 = '\n' + string
 print(n * string1)
 
