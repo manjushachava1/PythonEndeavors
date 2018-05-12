@@ -17,9 +17,9 @@ for elem in a:
 
 print(a, b, c)
 
-fin = list(set(c))
+final = list(set(c))
 
-print(fin)
+print(final)
 
 # Extra 2
 print(set(a) & set(b))
