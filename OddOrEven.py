@@ -1,4 +1,4 @@
-#Program 2
+# Program 2
 
 # Check if user input is even or odd
 # Extras:

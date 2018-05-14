@@ -1,4 +1,4 @@
-#Program 1
+# Program 1
 
 # Ask for user's name and age, then calculate the age of the user after 100 years
 # Extras:
