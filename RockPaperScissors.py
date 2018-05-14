@@ -2,18 +2,28 @@
 
 import random
 
-player = str(input("Rock, paper, scissors: "))
+player = str(input("rock, paper, scissors: "))
 
-computer = random.sample(range(1, 4), 1)
+choices = ("rock", "paper", "scissors")
+word = random.choice(choices)
 
-# 1 = rock
-# 2 = paper
-# 3 = scissors
-print(computer)
+if player == "rock" and word == "paper":
+    print("Computer chose " + word + " so you LOSE")
 
-if player == "rock":
-    if computer == 1:
-        print("It's a Tie!")
-elif player == "rock":
-    if computer == 2 or 3:
-        print("You either won or lost lel")
+if player == "rock" and word == "scissors":
+    print("Computer chose " + word + " so you WIN")
+
+if player == "paper" and word == "rock":
+    print("Computer chose " + word + " so you WIN")
+
+if player == "paper" and word == "scissors":
+    print("Computer chose " + word + " so you LOSE")
+
+if player == "scissors" and word == "rock":
+    print("Computer chose " + word + " so you LOSE")
+
+if player == "scissors" and word == "paper":
+    print("Computer chose " + word + " so you WIN")
+
+if player == word:
+    print("Its a Tie!")
